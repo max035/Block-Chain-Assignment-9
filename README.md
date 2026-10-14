@@ -39,7 +39,7 @@ Repository contents
 The implementation is currently organised as a Jupyter notebook. The core demonstration runs in-process; a persistent HTTP server is not required for that path.
 ```text
 .
-├── Lecture9.ipynb     # Notebook containing the prototype and demonstration
+├── Assignment9_vF.ipynb     # Notebook containing the prototype and demonstration
 └── README.md
 ```
 If the notebook is committed under a different filename, update the command below to match the filename in the repository.
@@ -65,7 +65,7 @@ Start JupyterLab:
 ```bash
    jupyter lab
    ```
-Open `Lecture9.ipynb`.
+Open `Assignment9_vF.ipynb`.
 Run the notebook cells in order, from the beginning through the demonstration and verification sections.
 Review the printed wallet addresses, balances, mined block, verification results, receipt, and explorer summary.
 The notebook's in-process flow does not require a long-running Flask server. The optional Flask section uses Flask's test client to exercise the API routes.
